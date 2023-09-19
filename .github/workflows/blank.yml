@@ -18,6 +18,6 @@ jobs:
     strategy:
       matrix:
         param: [dev, stage, prod]
-    uses: ./.github/workflows/reuse.yml@main
+    uses: ./.github/workflows/reuse.yml
     with:
       param: ${{ matrix.param }}
