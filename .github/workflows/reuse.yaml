@@ -8,8 +8,12 @@ on:
         type: string
 
 jobs:
-  parent:
+  job1:
     runs-on: ubuntu-latest
     steps:
      - run: echo ${{ inputs.config-path }}
+  job2:
+    runs-on: ubuntu-latest
+    steps:
+     - run: echo "123"
         
