@@ -1,7 +1,8 @@
 repo_name: terasa/templates
 report_id: f021b8cd2b731c6ec22a7e5b1d9cc939
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T14:04:06+00:00'
+timestamp: '2024-01-04T14:55:27+00:00'
 requested_by: terasa
 provider: github
 branch: main
@@ -15,6 +16,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/terasa/templates
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -24,6 +26,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
-  detection_source: ".github/workflows/reuse.yaml"
+  detection_source_url: https://github.com/terasa/templates/blob/main/.github/workflows/blank.yml
+  detection_source: ".github/workflows/blank.yml"
   last_updated_by: gazeta.pl
   last_updated_on: 2023-09-19 07:03:14.000000000 Z
